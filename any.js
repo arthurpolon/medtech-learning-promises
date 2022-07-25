@@ -1,6 +1,7 @@
 const sleep = require("./snippets/sleep");
 
-// no matter how many rejected, at least one must fulfill
+// return the first promise that fulfills,
+// if no one fulfills, reject with AggregateErrors
 
 async function allFulfilled() {
   console.time("main");

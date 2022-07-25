@@ -1,6 +1,6 @@
 const sleep = require("./snippets/sleep");
 
-// the first to fulfill or reject will be returned
+// return the first to fulfill or reject
 // the other promise will continue running, but the code will continue
 
 // to cancel a api call, use AbortController.abort() method and pass the 'signal' to your fetcher method

@@ -1,6 +1,7 @@
 const sleep = require("./snippets/sleep");
 
-// no matter if fulfills or rejects, return a fulfilled promise
+// no matter if it fulfills or rejects,
+// always return a fulfilled promise with the promises status and data
 
 // [
 //   { status: 'fulfilled', value: 'promise 1' },
